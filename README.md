@@ -9,8 +9,8 @@ Things to do after installing Fedora 42
 * For Terra:
 * `sudo dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release`
 * also while you're at it, install app-stream metadata by:
-* `sudo dnf group upgrade core`
-* `sudo dnf4 group update core`
+* `sudo dnf group install core`
+* `sudo dnf4 group install core`
   
 
 ## Update 
