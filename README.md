@@ -9,7 +9,7 @@ Things to do after installing Fedora 42
 * For Terra:
 * `sudo dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release`
 * also while you're at it, install app-stream metadata by:
-* `sudo dnf group install core`
+* `sudo dnf group upgrade core`
 * `sudo dnf4 group install core`
   
 
@@ -64,7 +64,7 @@ sudo fwupdmgr update
 ## Media Codecs
 * Install these to get proper multimedia playback.
 ````
-sudo dnf4 group upgrade multimedia
+sudo dnf4 group install multimedia
 sudo dnf swap 'ffmpeg-free' 'ffmpeg' --allowerasing # Switch to full FFMPEG.
 sudo dnf upgrade @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin # Installs gstreamer components. Required if you use Gnome Videos and other dependent applications.
 sudo dnf group install -y sound-and-video # Installs useful Sound and Video complementary packages.
