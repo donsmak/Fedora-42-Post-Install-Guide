@@ -141,7 +141,8 @@ DNSOverTLS=yes
 * Gnome software autostarts on boot for some reason, even though it is not required on every boot unless you want it to do updates in the background, this takes at least 100MB of RAM upto 900MB (as reported anecdotically). You can stop it from autostarting by:
 * `sudo rm /etc/xdg/autostart/org.gnome.Software.desktop`
 
-## Gnome Extensions
+## Gnome Extensions [Optional]
+* Suggestions for good utilities to extend the capabilities of your system
 * Don't install these if you are using a different spin of Fedora.
 * Pop Shell - run `sudo dnf install -y gnome-shell-extension-pop-shell xprop` to install it.
 * [GSconnect](https://extensions.gnome.org/extension/1319/gsconnect/) - run `sudo dnf install nautilus-python` for full support. then `sudo firewall-cmd --permanent --zone=public --add-service=kdeconnect`
