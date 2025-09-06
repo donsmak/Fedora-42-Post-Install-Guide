@@ -124,11 +124,6 @@ DNSOverTLS=yes
 ## Optimizations
 * The tips below can allow you to squeeze out a little bit more performance from your system. 
 
-### Disable Mitigations 
-* Increases performance in multithreaded systems. The more cores you have in your cpu the greater the performance gain. 5-30% performance gain varying upon systems. Do not follow this if you share services and files through your network or are using fedora in a VM. 
-* Modern intel CPUs (above 10th gen) do not gain noticeable performance improvements upon disabling mitigations. Hence, disabling mitigations can present some security risks against various attacks, however, it still _might_ increase the CPU performance of your system.
-* `sudo grubby --update-kernel=ALL --args="mitigations=off"`
-
 ### Enable nvidia-modeset 
 * Useful if you have a laptop with an Nvidia GPU. Necessary for some PRIME-related interoperability features.
 * `sudo grubby --update-kernel=ALL --args="nvidia-drm.modeset=1"`
