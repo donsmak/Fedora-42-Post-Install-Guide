@@ -1,5 +1,5 @@
- # Fedora 42 Post Install Guide
-Things to do after installing Fedora 42
+ # Fedora 43 Post Install Guide
+Things to do after installing Fedora 43
 
 ## RPM Fusion & Terra
 
@@ -144,7 +144,7 @@ DNSOverTLS=yes
 * Don't install these if you are using a different spin of Fedora.
 * Pop Shell - run `sudo dnf install -y gnome-shell-extension-pop-shell xprop` to install it.
 * [GSconnect](https://extensions.gnome.org/extension/1319/gsconnect/) - run `sudo dnf install nautilus-python` for full support. then `sudo firewall-cmd --permanent --zone=public --add-service=kdeconnect`
-* [Gesture Improvements](https://extensions.gnome.org/extension/4245/gesture-improvements/)
+* [Gesture Improvements](https://extensions.gnome.org/extension/4345/gesture-improvements/)
 * [Quick Settings Tweaker](https://github.com/qwreey75/quick-settings-tweaks)
 * [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 * [Compiz Windows Effect](https://extensions.gnome.org/extension/3210/compiz-windows-effect/)
@@ -159,7 +159,7 @@ DNSOverTLS=yes
 * [Legacy (GTK3) Theme Scheme Auto Switcher](https://extensions.gnome.org/extension/4998/legacy-gtk3-theme-scheme-auto-switcher/)
 * [Caffeine](https://extensions.gnome.org/extension/517/caffeine/)
 * [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
-* [Wireless HID](https://extensions.gnome.org/extension/4228/wireless-hid/)
+* [Wireless HID](https://extensions.gnome.org/extension/4328/wireless-hid/)
 * [Logo Menu](https://extensions.gnome.org/extension/4451/logo-menu/)
 * [Space Bar](https://github.com/christopher-l/space-bar)
 
